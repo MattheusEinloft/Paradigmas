@@ -27,7 +27,7 @@ exemploAll num lis = all (> num) lis
 -- $ sum $ zipWith (*) digitos1 [10,9..2]
 
 -- 	Composicao de Funcoes (Operador '.')
--- É uma maneira de "compor" duas funcoes em uma unica funcao, colocando o resultado de uma funcao na entrada de outra, criando uma funcao inteiramente nova.Exemplo:
+-- Eh uma maneira de "compor" duas funcoes em uma unica funcao, colocando o resultado de uma funcao na entrada de outra, criando uma funcao inteiramente nova.Exemplo:
 -- (negate . abs) (-5)
 -- A saida sera -5, pois aplica abs(funcao que retorna o valor absoluto do numero) e aplica negate(funcao que troca o sinal do numero) no resultado de abs(nesse caso, 5).
 -- Outro exemplo:
